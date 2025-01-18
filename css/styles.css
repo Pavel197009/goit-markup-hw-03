@@ -16,18 +16,12 @@
 
 }
 
-
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color: var(--white-color);
 }
 
-.header {
-    width: 1440px;
-    height: 72px;
-    border-bottom: 1px solid var(--accent-color);
-}
 p {
     margin: 0;
     font-weight: 400;
@@ -64,6 +58,12 @@ li {
 img, button {
     display: block;
 }
+
+.header {
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid var(--accent-color);
+}
 .header .container {
     display: flex;
     width: 1158px;
@@ -75,7 +75,6 @@ img, button {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-
 .logo {
     margin-right: 76px;;
     font-family: "Raleway", sans-serif;
@@ -87,13 +86,11 @@ img, button {
     text-transform: uppercase;
     color: var(--primary-brand-color);
 }
-
 .studio-logo {
     color: var(--dark-color);
 }
 .nav {
     display: flex;
-    padding: 15px 0;
     align-items: center;
 }
 .navigate-list {
@@ -101,6 +98,7 @@ img, button {
     gap: 40px;
 }
 .navigate-list-items {
+    padding: 15px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -134,6 +132,7 @@ address {
 .contact-list-item:hover {
     color: var(--primary-brand-color);
 }
+
 .first-section {
     width: 1440px;
     height: 600px;
