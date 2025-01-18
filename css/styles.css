@@ -26,12 +26,10 @@ body {
 header {
     width: 1440px;
     height: 72px;
-    padding-top: 24px;
-    padding-left: 156px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
-    display: flex;
+    border-bottom: 1px solid var(--accent-color);
 }
 p {
     margin: 0;
@@ -69,8 +67,17 @@ li {
 img {
     display: block;
 }
+header .container {
+    display: flex;
+    width: 1158px;
+    height: 72px;
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: center;
+}
 
 .logo {
+    margin-right: 76px;;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -85,8 +92,7 @@ img {
     color: var(--dark-color);
 }
 .nav {
-    margin-left: 76px;
-    padding: 0;
+    display: flex;
 }
 .navigate-list {
     display: flex;
