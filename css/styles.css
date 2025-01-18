@@ -141,6 +141,7 @@ address {
 }
 .first-section .container {
     align-items: center;
+    text-align: center;
 }
 
 .first-section-h-one {
