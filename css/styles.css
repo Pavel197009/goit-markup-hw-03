@@ -61,7 +61,7 @@ li {
     margin: 0;
     padding: 0;
 }
-img {
+img, button {
     display: block;
 }
 .header .container {
@@ -93,6 +93,8 @@ img {
 }
 .nav {
     display: flex;
+    padding: 15px 0;
+    align-items: center;
 }
 .navigate-list {
     display: flex;
