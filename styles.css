@@ -221,7 +221,7 @@ address {
     gap:24px;
 }
 .third-section-list-items {
-    flex-basis: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
     height: 380px;
     background-color: var(--white-color);
     border-radius: 0 0 4px 4px;
