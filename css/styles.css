@@ -206,31 +206,36 @@ address {
 
 .third-section {
     width: 1440px;
-    height: 732px;
-    padding-top: 120px;
+    padding: 120px 156px;
     background-color: var(--light-color);
 }
+.third-section-h-two {
+    margin-bottom: 72px;
+}
 .third-section-list {
-    margin-top: 72px;
-    margin-left: 108px;
-    border-radius: 0 0 4px 4px;
+    margin-left: 0 auto;
     display: flex;
-    gap:32px;
+    gap:24px;
 }
 .third-section-list-items {
+    flex-basis: calc((100%-72px)/4);
     height: 380px;
     background-color: var(--white-color);
+    border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
-.third-section-h3 {
+.third-section-list-items .container {
+    width: 100%;
+    padding: 32px 0;
+}
+.third-section-h-three {
     text-align: center;
-    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .third-section-p {
     text-align: center;
-    margin-top: 8px;
 }
 .fourth-section {
     margin-top: 120px;
