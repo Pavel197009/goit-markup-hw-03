@@ -274,22 +274,34 @@ address {
     margin-bottom: 8px;
 }
 
-footer {
-    padding-top: 100px;
-    padding-left: 156px;
+.footer {
+    padding: 100px 0;
     width: 1440px;
-    height: 312px;
     background-color: var(--dark-color);
+}
+.footer .container {
+    padding: 0 156px;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-studio-logo {
     color: var(--light-color);
 }
-
 .footer-p {
-    margin-top: 16px;
-    width: 264px;
+    max-width: 264px;
     color: var(--light-color);
 }
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
