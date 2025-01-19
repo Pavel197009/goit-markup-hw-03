@@ -264,6 +264,15 @@ address {
     border: 1px solid var(--accent-color);
     text-align: left;
 }
+.fourth-section-list-items-container {
+    padding: 32px 16px;
+    border: 1px solid var(--accent-color);
+    border-top: none;
+    text-align: left;
+}
+.fourth-section-h-three {
+    margin-bottom: 8px;
+}
 
 footer {
     padding-top: 100px;
