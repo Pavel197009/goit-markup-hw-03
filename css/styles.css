@@ -184,30 +184,26 @@ address {
     background-color: var(--pressed-state-color);
     border: var(--pressed-state-color);
 }
+
 .second-section {
-    margin-top: 120px;
-    width: 1128px;
     margin-left: 156px;
+    width: 1128px;
+    height: 344px;
+    padding: 120px 0;
     background-color: var(--white-color);  
 }
 .second-section-list {
     list-style-type: none;
+    gap: 24px;
 }
 .second-section-list-items {
-    height: 104px;
-    margin-left: 8px;
+    flex-basis: calc((100%-72px)/4);
 }
-.second-section-list-items::first-child {
-    margin-left: 0;
+.second-section-h-three {
+    margin-bottom: 8px;
 }
-.second-section-h3 {
-    width: 264px;
-}
-.second-section-p {
-    width: 264px;
-}
+
 .third-section {
-    margin-top: 120px;
     width: 1440px;
     height: 732px;
     padding-top: 120px;
