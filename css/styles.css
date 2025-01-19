@@ -206,8 +206,11 @@ address {
 
 .third-section {
     width: 1440px;
-    padding: 120px 156px;
+    padding: 120px 0;
     background-color: var(--light-color);
+}
+.third-section .container {
+    padding: 0 156px;
 }
 .third-section-h-two {
     margin-bottom: 72px;
