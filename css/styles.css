@@ -194,6 +194,7 @@ address {
 }
 .second-section-list {
     list-style-type: none;
+    display: flex;
     gap: 24px;
 }
 .second-section-list-items {
