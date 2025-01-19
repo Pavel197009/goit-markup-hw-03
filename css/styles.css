@@ -240,14 +240,18 @@ address {
     text-align: center;
 }
 .fourth-section {
-    margin-top: 120px;
-    margin-left: 156px;
-    width: 1128px;
+    padding: 120px 0;
+    width: 1440px;
     background-color: var(--white-color);
 }
+.fourth-section .container{
+    padding: 0 156px;
+}
+.fourth-section-h-two {
+    text-align: center;
+    margin-bottom: 72px;
+}
 .fourth-section-list {
-    width: 100%;
-    margin-top: 72px;
     display: flex;
     row-gap: 48px;
     column-gap: 24px;
@@ -260,16 +264,8 @@ address {
     border: 1px solid var(--accent-color);
     text-align: left;
 }
-.fourth-section-list-items h3 {
-    margin-left: 16px;
-    margin-top: 24px;
-}
-.fourth-section-list-items p {
-    margin-left: 16px;
-    margin-top: 8px;
-}
+
 footer {
-    margin-top: 120px;
     padding-top: 100px;
     padding-left: 156px;
     width: 1440px;
