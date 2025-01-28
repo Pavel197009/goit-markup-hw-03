@@ -51,18 +51,19 @@ img, button {
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid var(--accent-color);
 }
 .container {
-    padding: 0 156px;
     margin: 0 auto;
 }
 .header .container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    padding: 0 15px;
 }
 .logo {
+    padding: 24px 0;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -85,6 +86,7 @@ img, button {
     gap: 40px;
 }
 .navigate-list-items {
+    padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -106,6 +108,7 @@ address {
     gap: 40px;
 }
 .contact-list-item {
+    padding: 24px 0;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -124,6 +127,7 @@ address {
     background-color: var(--dark-color);
 }
 .first-section .container {
+    padding: 0 156px;
     height: 100%;
     align-items: center;
     text-align: center;
